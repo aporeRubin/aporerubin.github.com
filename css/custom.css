@@ -111,6 +111,10 @@ body{
 	.xs-height{
 		height: 45px;
 	}
+	i {
+		
+
+	}
 }
 /*pre-xs view*/
 @media( min-width: 820px){
