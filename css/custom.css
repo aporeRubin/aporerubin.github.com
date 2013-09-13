@@ -97,6 +97,10 @@ body{
 .fix div{
 	text-align: center;
 }
+
+.pushIcon{
+	margin-top: 60px;
+}
 /*xs view*/
 @media (max-width: 767px) {
 	.contactCen{
@@ -111,8 +115,7 @@ body{
 	.xs-height{
 		height: 45px;
 	}
-	i {
-		
+
 
 	}
 }
