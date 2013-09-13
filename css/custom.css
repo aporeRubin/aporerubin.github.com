@@ -1,0 +1,183 @@
+
+*.{
+	border:dashed 1px green;
+}
+body{
+	background: url('../img/rain.jpg') ;
+
+}
+
+
+#pBody{
+		margin-top: 150px ;
+		
+}
+
+
+.fixedHeader {
+	
+	height:px;
+}
+.inlin{
+	display: inline-block;
+}
+.mainItem{
+	height:px;
+	background-color:  ;
+}
+.itemHeader{
+	.greyed ;
+	border-radius: 0 0 50px 50px ;
+	font-weight:;
+
+}
+
+
+.title{
+	display:inline-block;
+}
+.phyl{
+	background-color: ;
+	font-weight: bolder ;
+	color: blue;
+	letter-spacing: 3px;
+}
+
+.link{
+	
+	margin-top:58.5px;
+	
+	border-right:none;
+	border-left: none ; 
+
+}
+.blueItem{
+	border.:solid 1px green;
+	border-radius: 3px ;
+	height: 135px ;
+}
+
+.post{
+	line-height: 7 ;
+	font-weight: bold ;
+
+}
+.greyed{
+	background-color: #FFFFFF ;
+	box-shadow: 1px 1px 1px #888888;
+}
+
+.fulH{
+	height:inherit;
+	
+}
+.pullUp{
+	margin-top:-10px;
+}
+
+.dl-horizontal dt {
+	width:50px;
+	
+}
+.dl-horizontal dd {
+	margin-left: 60px;
+	
+}
+
+.fix{
+	position: fixed;
+	margin-bottom: 0px;
+	background-color: white ;
+	width:100%;
+	z-index: 10;
+	font-size: 20px ;
+	color:red;
+	background-color: lightBlue ;
+}
+.fix div{
+	text-align: center;
+}
+/*xs view*/
+@media (max-width: 767px) {
+	.contactCen{
+		background-color:  ;
+		margin:10px auto;
+		text-align: center;			
+	}
+	.contactCen li{
+		width: 100px;
+		float:left;
+	}  
+	.xs-height{
+		height: 45px;
+	}
+}
+/*pre-xs view*/
+@media( min-width: 820px){
+
+}
+
+
+/*small view*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .bg-color{
+		background-color: blue ;
+	}
+	
+	
+
+}
+/*medium view*/
+@media (min-width: 992px) and (max-width: 1199px) {
+  	.bg-color{
+		background-color: black ;
+	}
+
+	.contactCen{
+		background-color:  ;
+		margin:10px auto;
+		text-align: center;
+	}
+}
+/*large view*/
+@media (min-width: 1200px) {
+  	.bg-color{
+		background-color: green ;
+	}
+	.contactCen{
+		background-color:  ;
+		margin:10px auto;
+		text-align: center;
+	}
+	
+
+}
+
+
+/* slider container */
+.iosSlider {
+	/* required */
+	position: relative;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	
+	width: <slider width>px;
+	height: <slider height>px;
+}
+
+/* slider */
+.iosSlider .slider {
+	/* required */
+	width: 100%;
+	height: 100%;
+}
+
+/* slide */
+.iosSlider .slider .slide {
+	/* required */
+	float: left;
+
+	width: <slide width>px;
+	height: <slide height>px;
+}
